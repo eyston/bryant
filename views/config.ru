@@ -1,6 +1,2 @@
-require 'bryant'
-
-## There is no need to set directories here anymore;
-## Just run the application
-
+require './bryant'
 run Sinatra::Application
