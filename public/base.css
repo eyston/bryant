@@ -83,15 +83,17 @@ p {
 }
 
 #footer {
-	padding-top: 15px;
+	padding: 15px;
 	width: 940px; 
-	margin: auto; 
+	margin: auto;
 }
 
 #footer p {
 	color: rgb(87,87,87);
 	display: block;
 	text-align: center;
+	font-size: 12px;
+	padding-bottom: 3px;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 }
 
@@ -223,3 +225,20 @@ div.paypal {
 	padding: 10px;
 }
 
+div.endorsement {
+	margin-bottom: 18px;
+	border-left: 5px solid #EEEEEE;
+	padding-left: 15px;
+}
+
+div.endorsement p {
+	margin-bottom: 0px;
+}
+
+div.endorsement span.source {
+	display: block;
+}
+
+p.endorsement-link {
+	margin-bottom: 25px;
+}

@@ -32,3 +32,7 @@ end
 get '/topten' do
   erb :topten
 end
+
+get '/endorsements' do
+  erb :endorsements
+end
