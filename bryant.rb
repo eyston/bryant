@@ -36,3 +36,11 @@ end
 get '/endorsements' do
   erb :endorsements
 end
+
+get '/news' do
+  erb :news
+end
+
+get '/events' do
+  erb :events
+end
