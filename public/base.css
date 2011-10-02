@@ -220,6 +220,42 @@ img.thumb {
 	height: 267px;
 }
 
+#comets {
+	float: right;
+	width: 200px;
+	height: 221px;
+}
+
+#ledger {
+	float: left;
+	width: 200px;
+	height: 162px;
+}
+
+#mortar {
+	float: left;
+	width: 200px;
+	height: 165px;
+}
+
+#puzzle {
+	float: left;
+	width: 200px;
+	height: 154px;
+}
+
+#stateflag {
+	float: right;
+	width: 250px;
+	height: 160px;
+}
+
+#communication {
+	float: right;
+	width: 200px;
+	height: 180px;
+}
+
 div.paypal {
 	text-align: center;
 	padding: 10px;
