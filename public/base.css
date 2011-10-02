@@ -14,35 +14,67 @@ body {
 
 #header { 
 	margin: 0px;
-	background-color: rgb(255, 245, 0);
-	background-image: -webkit-linear-gradient(top, rgb(240, 228, 0), rgb(255, 245, 0));
+	background-color: rgb(15, 40, 62);
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 }
 
-#title {
-	margin: 0px;
-	padding-top: 25px;
-	height: 155px;
-}
 
-#title h1, #title h2 {			
-	color: rgb(73, 86, 120);
+#header {
+	color: #FFFFFF;
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
 	font-weight: normal;
 }
 
-#title h1 {
-	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
-	font-size: 5em;
+#header #top {
+	padding: 10px;
+	font-size: 24px;
 }
 
-#title h2 {
-	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
-	font-weight: bold;
-	font-size: 1.5em;
+#top .parent {
+	float: left;
+}
+
+#top .endorsed {
+	float: right;
+}
+
+#title {
+	margin: auto;
+	width: 500px;
+	padding-top: 25px;
+	text-align: left;
+}
+
+#title #check {
+	float: left;
+	width: 100px;
+}
+
+#title div {
+	padding: 0px;
+	margin: 0px;
+}
+
+#title .first, #header .last {
+	margin-left: 100px;
+}
+
+#title .first {
+	padding-left: 40px;
+	font-size: 36px;
+}
+
+#title .last {
+	font-size: 96px;
+}
+
+#header h2 {
+	font-size: 36px;
+	padding: 0px;
+	padding-bottom: 10px;
 }
 
 #content { 
