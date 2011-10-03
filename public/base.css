@@ -41,6 +41,12 @@ body {
 	float: right;
 }
 
+#follow {
+	border-top: 2px solid #0F283E;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
 #title {
 	margin: auto;
 	width: 500px;
