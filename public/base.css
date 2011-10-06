@@ -310,3 +310,7 @@ div.endorsement span.source {
 p.endorsement-link {
 	margin-bottom: 25px;
 }
+
+div.endorsement img {
+	float: right;
+}
