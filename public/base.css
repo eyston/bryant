@@ -3,6 +3,10 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+	border: none;
+}
+
 #container { 
 	width: 940px; 
 	margin: auto; 
@@ -39,6 +43,12 @@ body {
 
 #top .endorsed {
 	float: right;
+}
+
+#follow {
+	border-top: 2px solid #0F283E;
+	margin-top: 10px;
+	padding-top: 10px;
 }
 
 #title {

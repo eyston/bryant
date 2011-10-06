@@ -3,6 +3,19 @@
 	<head>
 		<title>Chris Bryant - Solon School Board</title>
 		<link href="base.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-26067072-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
 	</head>
 	<body>
 		<div id="container">
@@ -34,6 +47,12 @@
 						<li><a href="/contact">CONTACT ME</a></li>
 						<li><a href="/topten">TOP TEN REASONS TO VOTE FOR CHRIS</a></li>
 					</ul>
+					<div id="follow">
+						<p>
+							<a href="http://twitter.com/bryant4solon" ><img id="twitter" src="icon_twitter.gif" /></a>
+							<a href="http://www.facebook.com/Bryant4SolonSchoolBoard" ><img id="facebook" src="icon_facebook.gif" /></a>
+						</p>
+					</div>
 				</div>
 				<div id="content-body">
 					<%= yield %>
@@ -49,6 +68,6 @@
 			<p>Treasurer Rob Cox, 33860 Country View Lane, Solon, OH 441239 (440) 318-1838</p>
 			<p>bryant4solonschools@ninegables.net</p>
 		</div>
-
+		
 	</body>
 </html>
